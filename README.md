@@ -90,7 +90,3 @@ Evaluation reports accuracy, macro-F1, per-prefix metrics, the mean exit step, a
 ## Citation
 
 Citation information for the EMCC paper will be added after publication. When using the dataset, please also cite the ISCXVPN2016 paper listed on the official dataset page.
-
-## License
-
-No open-source license has been selected yet. Add the intended license before publicly releasing the repository.
