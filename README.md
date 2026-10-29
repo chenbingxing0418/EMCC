@@ -27,7 +27,7 @@ python -m pip install -r requirements.txt
 
 ## Dataset
 
-The parent [UNB ISCXVPN2016 dataset](https://www.unb.ca/cic/datasets/vpn.html) contains both VPN and non-VPN traffic. This repository's experiment uses **only its VPN subset (ISCXVPN)**, with six application categories: chat, email, file transfer, P2P, streaming, and VoIP. The experiment does not use the full VPN/non-VPN dataset or include browsing as a target class.
+The [ISCXVPN2016 dataset](https://www.unb.ca/cic/datasets/vpn.html) contains both VPN and non-VPN traffic. This repository's experiment uses **only its VPN subset (ISCXVPN)**, with six application categories: chat, email, file transfer, P2P, streaming, and VoIP. The experiment does not use the full VPN/non-VPN dataset or include browsing as a target class.
 
 Download the raw PCAP files from the official dataset page and place **only the VPN captures for these six categories** under:
 
