@@ -34,7 +34,7 @@ class EMCCConfig:
     weight_decay: float = 1e-4
     num_workers: int = 0
     device: str = "cuda" if torch.cuda.is_available() else "cpu"
-    seed: int = 42
+    seed: int = 7
     deterministic: bool = True
     use_amp: bool = True
     disable_tqdm: bool = bool(os.environ.get("PYCHARM_HOSTED"))
